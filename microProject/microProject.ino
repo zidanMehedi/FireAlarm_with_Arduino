@@ -74,10 +74,3 @@ void semi_alert(int A,int B){
     digitalWrite(YELLOW, HIGH);
     lcd.clear();
 }
-
-void no_harm(){
-    digitalWrite(YELLOW, LOW);
-    digitalWrite(RED, LOW);
-    digitalWrite(BUZZER, LOW);  
-    digitalWrite(GREEN, LOW);
-}
